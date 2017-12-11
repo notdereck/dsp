@@ -44,11 +44,17 @@ What do the following commands do:
 `ls -Glp`  
 
 >> ls : shows directory listing
+
 >> ls -a : shows all file names, including names that begin with a dot
+
 >> ls -l : shows 'long format', or more information like file size
+
 >> ls -lh : 'long format' in human readable format 
+
 >> ls -lah : same as ls -lh, but also shows file names that begin with a dot
+
 >> ls -t : sorts by modification time, with newest coming first
+
 >> ls -Glp : no group names printed in long listing, the p is the append / indicator to directories
 
 ---
@@ -58,9 +64,13 @@ What do the following commands do:
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
 >> -m displays the names as a comma-separated list
+
 >> -d only shows directories
+
 >> -p displays directories with '/'
+
 >> -c displays files by timestamp
+
 >> -R shows subdirectories too
 
 ---
