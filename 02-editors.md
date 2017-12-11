@@ -81,7 +81,9 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I haven't really made up my mind yet, but I like emacs the best so far because this one actually told me where my files saved to.
+
+>> I might switch my answer to nano because it's supposed to be easier, though.
 
 --
 
@@ -89,6 +91,7 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I will be using Sublime, because it's supposed to be noob friendly. I've also seen some of my friends use Sublime.
 
+>> Some useful shortcuts, from their website, are the *Goto Anything* shortcut, command+P, which makes opening files fast & easy, and the shift+command+L *change everything* feature, which will let me change multiple things all at once. I can customize Sublime under preferences, but there's way more information here *http://docs.sublimetext.info/en/latest/customization/customization.html*, which I'll definitely end up referencing in the future.
  
