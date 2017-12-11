@@ -55,6 +55,8 @@ I installed Python 3, for the above reasons.
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
 import sys
+
+
 print(sys.version)
 
  
