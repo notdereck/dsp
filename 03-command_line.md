@@ -19,7 +19,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+>> show current working directory path: pwd
+>> creating a directory: mkdir [directory/folder name]
+>> deleting a directory: rm -r [directory/folder name]
+>> creating a file using `touch` command: touch [file name]
+>> deleting a file: rm [file name]
+>> renaming a file: mv [first file] [second file] (renames first file into second file]
+>> listing hidden files: ls -al
+>> copying a file from one directory to another: I think this is the same as renaming a file, mv [first file] [second file]
+>> search for patterns in files: grep [pattern] [files]
+>> change directory to X: cd X
 
 ---
 
@@ -34,7 +43,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+>> ls : shows directory listing
+>> ls -a : shows all file names, including names that begin with a dot
+>> ls -l : shows 'long format', or more information like file size
+>> ls -lh : 'long format' in human readable format 
+>> ls -lah : same as ls -lh, but also shows file names that begin with a dot
+>> ls -t : sorts by modification time, with newest coming first
+>> ls -Glp : no group names printed in long listing, the p is the append / indicator to directories
 
 ---
 
@@ -42,7 +57,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+>> -m displays the names as a comma-separated list
+>> -d only shows directories
+>> -p displays directories with '/'
+>> -c displays files by timestamp
+>> -R shows subdirectories too
 
 ---
 
@@ -50,7 +69,11 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+>> xargs is supposed to build and execute command lines from standard output. It's helpful with other commands, like grep or cp. For example:
+
+>> find . -name "*.txt" | xargs grep "booty" 
+
+>> will find all text files in the specified directory and look for "booty"
 
  
 
