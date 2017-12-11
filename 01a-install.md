@@ -48,16 +48,16 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
-I installed Python 3, for the above reasons.
+>> I installed Python 3, for the above reasons.
 
 ### Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
-import sys
+>> import sys
 
 
-print(sys.version)
+>> print(sys.version)
 
  
 
