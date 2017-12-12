@@ -20,14 +20,23 @@ Here's a list of items with which you should be familiar:
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
 >> show current working directory path: pwd
+
 >> creating a directory: mkdir [directory/folder name]
+
 >> deleting a directory: rm -r [directory/folder name]
+
 >> creating a file using `touch` command: touch [file name]
+
 >> deleting a file: rm [file name]
+
 >> renaming a file: mv [first file] [second file] (renames first file into second file]
+
 >> listing hidden files: ls -al
+
 >> copying a file from one directory to another: I think this is the same as renaming a file, mv [first file] [second file]
+
 >> search for patterns in files: grep [pattern] [files]
+
 >> change directory to X: cd X
 
 ---
